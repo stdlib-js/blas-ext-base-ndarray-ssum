@@ -2,6 +2,51 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-02-28)
+
+<section class="features">
+
+### Features
+
+-   [`0e62b3f`](https://github.com/stdlib-js/stdlib/commit/0e62b3fbc7f29583bfd0ba72f9e3d900af99e9a4) - add C implementation for `blas/ext/base/ndarray/ssum` [(#10078)](https://github.com/stdlib-js/stdlib/pull/10078)
+
+</section>
+
+<!-- /.features -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`0e62b3f`](https://github.com/stdlib-js/stdlib/commit/0e62b3fbc7f29583bfd0ba72f9e3d900af99e9a4) - **feat:** add C implementation for `blas/ext/base/ndarray/ssum` [(#10078)](https://github.com/stdlib-js/stdlib/pull/10078) _(by Kaustubh Patange, Athan Reines)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Kaustubh Patange
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.1.1">
 
 ## 0.1.1 (2026-02-08)
