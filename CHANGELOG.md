@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-03-09)
+## Unreleased (2026-03-28)
 
 <section class="features">
 
@@ -32,6 +32,7 @@
 
 <details>
 
+-   [`8892296`](https://github.com/stdlib-js/stdlib/commit/889229649e046242045e484d4c35097b2fb9ca68) - **docs:** add missing private annotation in `blas/ext/base/ndarray/ssum` [(#11175)](https://github.com/stdlib-js/stdlib/pull/11175) _(by Kaustubh Patange)_
 -   [`c703f0f`](https://github.com/stdlib-js/stdlib/commit/c703f0f66c85fdd8890b2a0603ebe9934892d1b6) - **fix:** rename C function to `stdlib_blas_ext_ssum` in `blas/ext/base/ndarray/ssum` _(by Philipp Burckhardt)_
 -   [`95e3a15`](https://github.com/stdlib-js/stdlib/commit/95e3a153b0483dbee7c0d55cb80eee826f0933fb) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`0e62b3f`](https://github.com/stdlib-js/stdlib/commit/0e62b3fbc7f29583bfd0ba72f9e3d900af99e9a4) - **feat:** add C implementation for `blas/ext/base/ndarray/ssum` [(#10078)](https://github.com/stdlib-js/stdlib/pull/10078) _(by Kaustubh Patange, Athan Reines)_
