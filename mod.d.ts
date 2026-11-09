@@ -1,7 +1,7 @@
-/**
+/*
 * @license Apache-2.0
 *
-* Copyright (c) 2026 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,18 +16,35 @@
 * limitations under the License.
 */
 
-#include "stdlib/blas/ext/base/ndarray/ssum.h"
-#include "stdlib/blas/ext/base/ssum.h"
-#include "stdlib/ndarray/ctor.h"
-#include "stdlib/blas/base/shared.h"
+// TypeScript Version: 4.1
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@main/index.d.ts"/>
+
+import { float32ndarray } from '@stdlib/types/ndarray';
 
 /**
 * Computes the sum of all elements in a one-dimensional single-precision floating-point ndarray.
 *
-* @param arrays    list containing an input ndarray
-* @return          sum
+* ## Notes
+*
+* -   The function expects the following ndarrays:
+*
+*     -   a one-dimensional input ndarray.
+*
+* @param arrays - array-like object containing ndarrays
+* @returns sum
+*
+* @example
+* var Float32Vector = require( '@stdlib/ndarray-vector-float32' );
+*
+* var x = new Float32Vector( [ 1.0, 3.0, 4.0, 2.0 ] );
+*
+* var v = ssum( [ x ] );
+* // returns 10.0
 */
-float stdlib_blas_ext_ssum( const struct ndarray *arrays[] ) {
-	const struct ndarray *x = arrays[ 0 ];
-	return API_SUFFIX(stdlib_strided_ssum_ndarray)( stdlib_ndarray_dimension( x, 0 ), (const float *)stdlib_ndarray_data( x ), stdlib_ndarray_stride_elements( x, 0 ), stdlib_ndarray_offset_elements( x ) );
-}
+declare function ssum( arrays: [ float32ndarray ] ): number;
+
+
+// EXPORTS //
+
+export = ssum;
